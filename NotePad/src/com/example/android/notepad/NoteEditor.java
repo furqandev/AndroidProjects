@@ -19,11 +19,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 
-/**
- * A generic activity for editing a note in a database.  This can be used
- * either to simply view a note {@link Intent#ACTION_VIEW}, view and edit a note
- * {@link Intent#ACTION_EDIT}, or create a new note {@link Intent#ACTION_INSERT}.  
- */
+
 public class NoteEditor extends Activity {
     private static final String TAG = "Notes";
 
